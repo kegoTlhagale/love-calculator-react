@@ -55,8 +55,8 @@ function App() {
 
     event.preventDefault();
     const requestParams = {
-      name1: name,
-      name2: otherName
+      name,
+      otherName
     }
 
     console.log(requestParams)
